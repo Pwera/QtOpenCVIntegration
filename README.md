@@ -1,6 +1,6 @@
-# Minimal CMake Template for Qt 5 Projects
+# Minimal CMake Template for Qt 5, OpenCV 3 Projects
 
-[As I've briefly introduced](http://euler.kr/trl/2014/08/19/minimal-cmake-template.html), this is a minimal, but complete and production-ready CMake project template for Qt 5 projects. This may be a starting point for your new application. If that is not intent to be a cross-platform project, you can clean up that stuffs from the template.
+This is a minimal, but complete and production-ready CMake project template for Qt 5 and OpenCV 3 projects. If that is not intent to be a cross-platform project, you can clean up that stuffs from the template.
 
 If you want to deploy your application on macOS, I would recommend you read below document.
 
@@ -8,8 +8,8 @@ If you want to deploy your application on macOS, I would recommend you read belo
 
 ## Features
   * Handling all possible Qt stuffs (UI, resources, ~~translations~~)
-  * macOS bundle
-  * Windows executable icon
+  * Image detection algorithms with OpenCV	
+  * Precompiled headers with awesome cotire tool
 
 ## References
   * CMake manual: http://qt-project.org/doc/qt-5.0/qtdoc/cmake-manual.html
